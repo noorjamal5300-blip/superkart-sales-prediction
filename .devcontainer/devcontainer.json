@@ -1,0 +1,16 @@
+{
+  "name": "superkart",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "forwardPorts": [
+    7860,
+    8501
+  ],
+  "portsAttributes": {
+    "7860": {
+      "label": "backend"
+    },
+    "8501": {
+      "label": "frontend"
+    }
+  }
+}
